@@ -22,14 +22,61 @@ div{
         flex-basis: 30%;
     }
 }
-.red {background-color: red;}
-.blue {background-color: blue;}
-.yellow {background-color: yellow;}
-.green {background-color: green;}
-.brown {background-color: brown;}
-.gray {background-color: gray;}
-.lightgreen {background-color: lightgreen;}
-.cadetblue {background-color: cadetblue;}
-.violet {background-color: violet;}
-.hidden {background-color: black;}
-.off {background-color: #eee;}
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.gray {
+    background-color: grey;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.cadetblue {
+    background-color: cadetblue;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.hidden {
+    background-color: black;
+}
+
+.off {
+    background-color: #eee;
+}
+
+#message{
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        font-size: 50px;
+        width: 100%;
+}
+.reset{
+        border: 2px solid grey;
+}
+.reset:hover{
+        border: 2px solid black;
+        background: grey;
+}
