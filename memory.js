@@ -52,7 +52,7 @@ $(document).ready(function () {
                 if (active_cards[0].className === active_cards[1].className) {
                     active_cards.forEach(card => $(card).addClass("off"))
                     resultsGame++;
-
+                    cards = cards.filter(card => !card.classList.contains("off"));
                     if (resultsGame === pairsGame) {
                        const endTime = new Date().getTime();
                        let gameTime = (endTime - startTime) / 1000;
